@@ -1,0 +1,4 @@
+on chat:
+  if event-message contains "kurla":
+    cancel event
+    send "&cNie przeklinaj!" to event-player
